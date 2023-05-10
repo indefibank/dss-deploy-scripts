@@ -1,32 +1,30 @@
 {
-  "description": "Testchain Deployment",
-  "omniaFromAddr": "0xdc9A20F5a46AFE0802b361076BeFC51f787B2e58",
-  "omniaAmount": "10000",
+  "description": "Bsc Testnet Deployment",
   "pauseDelay": "0",
-  "vat_line": "1000000",
-  "vow_wait": "0",
-  "vow_dump": "0.01",
-  "vow_sump": "0.1",
-  "vow_bump": "0.1",
-  "vow_hump": "0",
-  "cat_box": "10000",
-  "dog_hole": "10000",
+  "vat_line": "778000000",
+  "vow_wait": "561600",
+  "vow_dump": "250",
+  "vow_sump": "50000",
+  "vow_bump": "10000",
+  "vow_hump": "500000",
+  "cat_box": "10000000",
+  "dog_hole": "100000000",
   "jug_base": "0",
-  "pot_dsr": "1",
+  "pot_dsr": "0",
   "cure_wait": "0",
-  "end_wait": "0",
+  "end_wait": "262800",
   "esm_min": "100000",
-  "flap_beg": "5",
-  "flap_ttl": "10800",
-  "flap_tau": "172800",
+  "flap_beg": "2",
+  "flap_ttl": "1800",
+  "flap_tau": "259200",
   "flap_lid": "150000",
-  "flop_beg": "5",
-  "flop_pad": "50",
-  "flop_ttl": "10800",
-  "flop_tau": "172800",
+  "flop_beg": "3",
+  "flop_pad": "20",
+  "flop_ttl": "21600",
+  "flop_tau": "259200",
   "flash_max": "500000000",
   "tokens": {
-    "ETH": {
+    "BNB": {
       "gemDeploy": {
         "src": "ds-wcoin/WCOIN9_",
         "params": [],
@@ -42,13 +40,7 @@
         "type": "value",
         "price": "150",
         "signers": [
-          "0x005B903dAdfD96229CBa5EB0e5Aa75C578e8F968",
-          "0x25310bC78B9347F97DC664b46E5D4602a6De5f2C",
-          "0x74B12Eeb596831796Beb1B36FC96DCCa815523B8",
-          "0xe709290634dE56a55d9826d35A9e677Fea5422EC",
-          "0x18753d13f14b80eb3d8ea96d4367957bb588d410",
-          "0x5874f6a09271cdb4e1a13ef3d402df6912863244",
-          "0x62ccadc1187593d0553398fabfa7ba41eb435ad2"
+          "0x0221ea5f9037fDE38335E02D7477Fee8D1Aed8b8"
         ]
       },
       "ilks": {
@@ -86,13 +78,7 @@
         "type": "value",
         "price": "19000",
         "signers": [
-          "0x005B903dAdfD96229CBa5EB0e5Aa75C578e8F968",
-          "0x25310bC78B9347F97DC664b46E5D4602a6De5f2C",
-          "0x74B12Eeb596831796Beb1B36FC96DCCa815523B8",
-          "0xe709290634dE56a55d9826d35A9e677Fea5422EC",
-          "0x18753d13f14b80eb3d8ea96d4367957bb588d410",
-          "0x5874f6a09271cdb4e1a13ef3d402df6912863244",
-          "0x62ccadc1187593d0553398fabfa7ba41eb435ad2"
+          "0x0221ea5f9037fDE38335E02D7477Fee8D1Aed8b8"
         ]
       },
       "ilks": {
@@ -130,13 +116,7 @@
         "type": "value",
         "price": "1",
         "signers": [
-          "0x005B903dAdfD96229CBa5EB0e5Aa75C578e8F968",
-          "0x25310bC78B9347F97DC664b46E5D4602a6De5f2C",
-          "0x74B12Eeb596831796Beb1B36FC96DCCa815523B8",
-          "0xe709290634dE56a55d9826d35A9e677Fea5422EC",
-          "0x18753d13f14b80eb3d8ea96d4367957bb588d410",
-          "0x5874f6a09271cdb4e1a13ef3d402df6912863244",
-          "0x62ccadc1187593d0553398fabfa7ba41eb435ad2"
+          "0x0221ea5f9037fDE38335E02D7477Fee8D1Aed8b8"
         ]
       },
       "ilks": {
@@ -174,13 +154,7 @@
         "type": "value",
         "price": "100",
         "signers": [
-          "0x005B903dAdfD96229CBa5EB0e5Aa75C578e8F968",
-          "0x25310bC78B9347F97DC664b46E5D4602a6De5f2C",
-          "0x74B12Eeb596831796Beb1B36FC96DCCa815523B8",
-          "0xe709290634dE56a55d9826d35A9e677Fea5422EC",
-          "0x18753d13f14b80eb3d8ea96d4367957bb588d410",
-          "0x5874f6a09271cdb4e1a13ef3d402df6912863244",
-          "0x62ccadc1187593d0553398fabfa7ba41eb435ad2"
+          "0x0221ea5f9037fDE38335E02D7477Fee8D1Aed8b8"
         ]
       },
       "ilks": {

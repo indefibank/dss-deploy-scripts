@@ -28,7 +28,13 @@ help() {
 test -z "$1" && echo "Missing network" && help
 
 RPC_CHAIN="$(seth chain)"
-if [[ "$RPC_CHAIN" == "unknown" ]]; then
+if [[ "$RPC_CHAIN" == "unknown" && "$1" == "metric" ]]; then
+    RPC_CHAIN="metric"
+elif [[ "$RPC_CHAIN" == "unknown" && "$1" == "metertestnet" ]]; then
+    RPC_CHAIN="metertestnet"
+elif [[ "$RPC_CHAIN" == "unknown" && "$1" == "bsctestnet" ]]; then
+    RPC_CHAIN="bsctestnet"
+elif [[ "$RPC_CHAIN" == "unknown" ]]; then
     RPC_CHAIN="testchain"
 elif [[ "$RPC_CHAIN" == "ethlive" ]]; then
     RPC_CHAIN="main"
@@ -61,7 +67,7 @@ done
 
 writeConfigFor "$1"
 
-# Send ETH to Omnia Relayer
+# Send COIN to Omnia Relayer
 OMNIA_ADDR="$(jq -r ".omniaFromAddr" "$CONFIG_FILE")"
 OMNIA_AMT="$(jq -r ".omniaAmount" "$CONFIG_FILE")"
 if [[ "$RPC_CHAIN" == "testchain" && -n "$OMNIA_ADDR" && -n "$OMNIA_AMT" ]]; then

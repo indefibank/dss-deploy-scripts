@@ -1,8 +1,8 @@
 # DSS deployment scripts
 
-![Build Status](https://github.com/makerdao/dss-deploy-scripts/actions/workflows/.github/workflows/tests.yaml/badge.svg?branch=master)
+![Build Status](https://github.com/indefibank/dss-deploy-scripts/actions/workflows/.github/workflows/tests.yaml/badge.svg?branch=master)
 
-A set of scripts that deploy [dss](http://github.com/makerdao/dss) to an
+A set of scripts that deploy [dss](http://github.com/indefibank/dss) to an
 Ethereum chain of your choosing.
 
 ## Description
@@ -67,20 +67,20 @@ Below is the expected structure of such a config file:
   "omniaFromAddr": "<Address being used by Omnia Service (only for testchain)>",
   "omniaAmount": "<Amount in ETH to be sent to Omnia Address (only for testchain)>",
   "pauseDelay": "<Delay of Pause contract in seconds>",
-  "vat_line": "<General debt ceiling in DAI unit>",
+  "vat_line": "<General debt ceiling in STBL unit>",
   "vow_wait": "<Flop delay in seconds>",
-  "vow_sump": "<Flop fixed bid size in DAI unit>",
-  "vow_dump": "<Flop initial lot size in MKR unit>",
-  "vow_bump": "<Flap fixed lot size in DAI unit>",
-  "vow_hump": "<Flap Surplus buffer in DAI unit>",
-  "cat_box": "<Max total DAI needed to cover all debt plus penalty fees on active Flip auctions in DAI unit>",
-  "dog_hole": "<Max total DAI needed to cover all debt plus penalty fees on active Clip auctions in DAI unit>",
+  "vow_sump": "<Flop fixed bid size in STBL unit>",
+  "vow_dump": "<Flop initial lot size in GOV unit>",
+  "vow_bump": "<Flap fixed lot size in STBL unit>",
+  "vow_hump": "<Flap Surplus buffer in STBL unit>",
+  "cat_box": "<Max total STBL needed to cover all debt plus penalty fees on active Flip auctions in STBL unit>",
+  "dog_hole": "<Max total STBL needed to cover all debt plus penalty fees on active Clip auctions in STBL unit>",
   "jug_base": "<Base component of stability fee in percentage per year (e.g. 2.5)>",
-  "pot_dsr": "<Dai Savings Rate in percentage per year (e.g. 2.5)>",
+  "pot_dsr": "<STBL Savings Rate in percentage per year (e.g. 2.5)>",
   "cure_wait": "<Cure cooldown period in seconds>",
   "end_wait": "<Global Settlement cooldown period in seconds>",
-  "esm_pit": "<Pit address to send MKR to be burnt when ESM is fired>",
-  "esm_min": "<Minimum amount to trigger ESM in MKR unit>",
+  "esm_pit": "<Pit address to send GOV to be burnt when ESM is fired>",
+  "esm_min": "<Minimum amount to trigger ESM in GOV unit>",
   "flap_beg": "<Minimum bid increase in percentage (e.g. 5.5)>",
   "flap_ttl": "<Max time between bids in seconds>",
   "flap_tau": "<Max auction duration in seconds>",
@@ -88,8 +88,8 @@ Below is the expected structure of such a config file:
   "flop_pad": "<Increase of lot size after `tick` in percentage (e.g. 50)>",
   "flop_ttl": "<Max time between bids in seconds>",
   "flop_tau": "<Max auction duration in seconds>",
-  "flap_lid": "<Max amount of DAI that can be put up for sale at the same time in DAI unit (e.g. 1000000)>",
-  "flash_max": "<Max DAI can be borrowed from flash loan module in DAI unit (e.g. 1000000)>",
+  "flap_lid": "<Max amount of STBL that can be put up for sale at the same time in STBL unit (e.g. 1000000)>",
+  "flash_max": "<Max STBL can be borrowed from flash loan module in STBL unit (e.g. 1000000)>",
   "import": {
     "gov": "<GOV token address (if there is an existing one to import)> note: make sure to mint enough tokens for launch",
     "authority": "<Authority address (if there is an existing one to import)> note: make sure to launch MCD_ADMIN",
@@ -123,24 +123,24 @@ Below is the expected structure of such a config file:
       "ilks": {
         "A": {
           "mat": "<Liquidation ratio value in percentage (e.g. 150)>",
-          "line": "<Debt ceiling value in DAI unit (won't be used if autoLine is > 0)>",
-          "autoLine": "<Max debt ceiling value in DAI unit (for DssAutoLine IAM)>",
-          "autoLineGap": "<Value to set the ceiling over the current ilk debt in DAI unit (for DssAutoLine IAM)>",
+          "line": "<Debt ceiling value in STBL unit (won't be used if autoLine is > 0)>",
+          "autoLine": "<Max debt ceiling value in STBL unit (for DssAutoLine IAM)>",
+          "autoLineGap": "<Value to set the ceiling over the current ilk debt in STBL unit (for DssAutoLine IAM)>",
           "autoLineTtl": "<Time between debt ceiling increments (for DssAutoLine IAM)>",
-          "dust": "<Min amount of debt a CDP can hold in DAI unit>"
+          "dust": "<Min amount of debt a CDP can hold in STBL unit>"
           "duty": "<Collateral component of stability fee in percentage per year (e.g. 2.5)>",
           "flipDeploy": {
             "chop": "<Liquidation penalty value in percentage (e.g. 12.5)>",
-            "dunk": "<Liquidation Quantity in DAI Unit>",
+            "dunk": "<Liquidation Quantity in STBL Unit>",
             "beg": "<Minimum bid increase in percentage (e.g. 5.5)>",
             "ttl": "<Max time between bids in seconds>",
             "tau": "<Max auction duration in seconds>"
           },
           "clipDeploy": { // Will be used only if there isn't a flipDeploy
             "chop": "<Liquidation penalty value in percentage (e.g. 12.5)>",
-            "hole": "<Max DAI needed to cover debt+fees of active auctions per ilk (e.g. 100,000 DAI)>",
+            "hole": "<Max STBL needed to cover debt+fees of active auctions per ilk (e.g. 100,000 STBL)>",
             "chip": "<Percentage of due to suck from vow to incentivize keepers (e.g. 2%)>",
-            "tip": "<Flat fee to suck from vow to incentivize keepers (e.g. 100 DAI)>",
+            "tip": "<Flat fee to suck from vow to incentivize keepers (e.g. 100 STBL)>",
             "buf": "<Multiplicative factor to increase starting price (e.g. 125%)>",
             "tail": "<Time elapsed before auction reset in seconds>",
             "cusp": "<Percentage taken for the new price before auction reset (e.g. 30%)>",
@@ -158,13 +158,13 @@ Below is the expected structure of such a config file:
   }
 }
 ```
-NOTE: Make sure to mint enough (threshold is 80,000 MKR) tokens for launch if you are providing it in `config.gov`:
+NOTE: Make sure to mint enough (threshold is 80,000 GOV) tokens for launch if you are providing it in `config.gov`:
 ```
     sethSend "$MCD_GOV" 'mint(address,uint256)' "$ETH_FROM" "$(seth --to-uint256 "$(seth --to-wei 1000000 ETH)")"
 ```
 NOTE: Make sure to `launch` MCD_ADMIN if you are providing it in `config.authority`.
 ```
-    # lock enough MKR (80,000 MKR threshold)
+    # lock enough GOV (80,000 GOV threshold)
     sethSend "$MCD_GOV" "approve(address,uint256)" "$MCD_ADM" "$(seth --to-uint256 "$(seth --to-wei 80000 ETH)")"
     sethSend "$MCD_ADM" "lock(uint256)" "$(seth --to-uint256 "$(seth --to-wei 80000 ETH)")"
     sethSend "$MCD_ADM" "vote(address[])" "[0x0000000000000000000000000000000000000000]"
@@ -230,7 +230,7 @@ nix-shell --pure
 You can even run deploy scripts without having to clone this repo:
 
 ```shell
-nix run -f https://github.com/makerdao/dss-deploy-scripts/tarball/master -c dss-deploy testchain
+nix run -f https://github.com/indefibank/dss-deploy-scripts/tarball/master -c dss-deploy testchain
 ```
 
 Dependencies are managed through a central repository referenced in
@@ -256,8 +256,8 @@ dapp2nix clone-recursive contracts
 
 ## Additional Documentation
 
-- `dss-deploy` [source code](https://github.com/makerdao/dss-deploy)
-- `dss` is documented in the [wiki](https://github.com/makerdao/dss/wiki) and in [DEVELOPING.md](https://github.com/makerdao/dss/blob/master/DEVELOPING.md)
+- `dss-deploy` [source code](https://github.com/indefibank/dss-deploy)
+- `dss` is documented in [DEVELOPING.md](https://github.com/indefibank/dss/blob/master/DEVELOPING.md)
 
 ## TODO
 

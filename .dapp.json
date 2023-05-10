@@ -1,15 +1,15 @@
 {
   "contracts": {
-    "clipper-mom_1473b44": {
+    "clipper-mom_316d8fe": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
       "name": "clipper-mom",
       "repo": {
-        "name": "clipper-mom-1473b44",
+        "name": "clipper-mom-316d8fe",
         "ref": "HEAD",
-        "rev": "1473b448cc9141fb0c56146f8b5b28db57b39739",
-        "url": "https://github.com/makerdao/clipper-mom"
+        "rev": "316d8fe0262d1c0162579e717abd3c8a74fcb76f",
+        "url": "https://github.com/indefibank/clipper-mom"
       }
     },
     "ds-auth_a51e7ca": {
@@ -24,19 +24,19 @@
         "url": "https://github.com/dapphub/ds-auth"
       }
     },
-    "ds-chief_224b476": {
+    "ds-chief_9e1986e": {
       "deps": {
         "ds-roles": "ds-roles_53d5694",
         "ds-test": "ds-test_0a5da56",
         "ds-thing": "ds-thing_5865abc",
-        "ds-token": "ds-token_a5e709b"
+        "ds-token": "ds-token_0df53eb"
       },
       "name": "ds-chief",
       "repo": {
-        "name": "ds-chief-224b476",
+        "name": "ds-chief-9e1986e",
         "ref": "HEAD",
-        "rev": "224b476de95e7fabedb173ddb59fe271a366ff62",
-        "url": "https://github.com/makerdao/ds-chief"
+        "rev": "9e1986e861061751dd7e7c04cc7d7f360247465b",
+        "url": "https://github.com/indefibank/ds-chief"
       }
     },
     "ds-math_e70a364": {
@@ -73,7 +73,7 @@
         "name": "ds-pause-5e798dd",
         "ref": "HEAD",
         "rev": "5e798dd96bfaac978cd9fe3c0259b486e8afd213",
-        "url": "https://github.com/makerdao/ds-pause"
+        "url": "https://github.com/indefibank/ds-pause"
       }
     },
     "ds-proxy_e17a252": {
@@ -142,7 +142,7 @@
         "url": "https://github.com/dapphub/ds-thing"
       }
     },
-    "ds-token_a5e709b": {
+    "ds-token_0df53eb": {
       "deps": {
         "ds-auth": "ds-auth_a51e7ca",
         "ds-math": "ds-math_e70a364",
@@ -150,10 +150,10 @@
       },
       "name": "ds-token",
       "repo": {
-        "name": "ds-token-a5e709b",
+        "name": "ds-token-0df53eb",
         "ref": "HEAD",
-        "rev": "a5e709b205383720a3d47c7b234771daf4b58766",
-        "url": "https://github.com/dapphub/ds-token"
+        "rev": "0df53eb003dee631452cf5b83be7f788037b7983",
+        "url": "https://github.com/indefibank/ds-token"
       }
     },
     "ds-value_4049ecd": {
@@ -169,167 +169,167 @@
         "url": "https://github.com/dapphub/ds-value"
       }
     },
-    "ds-weth_b23b478": {
+    "ds-wcoin_bc616e2": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
         "erc20": "erc20_f322aac"
       },
-      "name": "ds-weth",
+      "name": "ds-wcoin",
       "repo": {
-        "name": "ds-weth-b23b478",
+        "name": "ds-wcoin-bc616e2",
         "ref": "HEAD",
-        "rev": "b23b47824572500cb301b65370208b1b752f7482",
-        "url": "https://github.com/makerdao/ds-weth"
+        "rev": "bc616e226ae22fe8b33edf9d99676be521887d2c",
+        "url": "https://github.com/indefibank/ds-wcoin"
       }
     },
-    "dsr-manager_0a48c2d": {
+    "dsr-manager_05d0c8c": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "dss-deploy": "dss-deploy_45985a9"
+        "dss-deploy": "dss-deploy_87ea557"
       },
       "name": "dsr-manager",
       "repo": {
-        "name": "dsr-manager-0a48c2d",
+        "name": "dsr-manager-05d0c8c",
         "ref": "HEAD",
-        "rev": "0a48c2dda418927ab844ec251f24079c0a3ff2bb",
-        "url": "https://github.com/makerdao/dsr-manager"
+        "rev": "05d0c8c2d5008c763754a94ac33f5348c5dab92d",
+        "url": "https://github.com/indefibank/dsr-manager"
       }
     },
-    "dss-auto-line_bff7e6c": {
+    "dss-auto-line_48c2272": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
       "name": "dss-auto-line",
       "repo": {
-        "name": "dss-auto-line-bff7e6c",
+        "name": "dss-auto-line-48c2272",
         "ref": "HEAD",
-        "rev": "bff7e6cc43dbd7d9a054dd359ef18a1b4d06b6f5",
-        "url": "https://github.com/makerdao/dss-auto-line"
+        "rev": "48c227233551f99d691ce2e37ca79847127b7709",
+        "url": "https://github.com/indefibank/dss-auto-line"
       }
     },
-    "dss-cdp-manager_306132d": {
+    "dss-cdp-manager_4de6722": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "dss-deploy": "dss-deploy_45985a9"
+        "dss-deploy": "dss-deploy_87ea557"
       },
       "name": "dss-cdp-manager",
       "repo": {
-        "name": "dss-cdp-manager-306132d",
+        "name": "dss-cdp-manager-4de6722",
         "ref": "v1.2",
-        "rev": "306132d6442b3245081a60bc84468c6a0c252fa8",
-        "url": "https://github.com/makerdao/dss-cdp-manager"
+        "rev": "4de6722a42a2ff080f22b5f5340a6a8d2bf3563f",
+        "url": "https://github.com/indefibank/dss-cdp-manager"
       }
     },
-    "dss-chain-log_90cf9c0": {
+    "dss-chain-log_0da974a": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
       "name": "dss-chain-log",
       "repo": {
-        "name": "dss-chain-log-90cf9c0",
+        "name": "dss-chain-log-0da974a",
         "ref": "HEAD",
-        "rev": "90cf9c0589d56724b94a0d4f9b4af486a2231385",
-        "url": "https://github.com/makerdao/dss-chain-log"
+        "rev": "0da974a7da7e69a204004e9026e7a59af847679d",
+        "url": "https://github.com/indefibank/dss-chain-log"
       }
     },
-    "dss-deploy-pause-proxy-actions_9344383": {
+    "dss-deploy-pause-proxy-actions_0c816c9": {
       "deps": {
         "ds-proxy": "ds-proxy_e17a252",
         "ds-test": "ds-test_0a5da56",
-        "dss-deploy": "dss-deploy_45985a9"
+        "dss-deploy": "dss-deploy_87ea557"
       },
       "name": "dss-deploy-pause-proxy-actions",
       "repo": {
-        "name": "dss-deploy-pause-proxy-actions-9344383",
+        "name": "dss-deploy-pause-proxy-actions-0c816c9",
         "ref": "HEAD",
-        "rev": "93443831ea4008177bbdc55d9ab8ba8ee069324c",
-        "url": "https://github.com/makerdao/dss-deploy-pause-proxy-actions"
+        "rev": "0c816c9ca152e71662bedcc56571ccfb0064d23c",
+        "url": "https://github.com/indefibank/dss-deploy-pause-proxy-actions"
       }
     },
-    "dss-deploy_45985a9": {
+    "dss-deploy_87ea557": {
       "deps": {
         "ds-auth": "ds-auth_a51e7ca",
         "ds-pause": "ds-pause_5e798dd",
         "ds-test": "ds-test_0a5da56",
-        "dss": "dss_38f618c",
-        "esm": "esm_8fabd86"
+        "dss": "dss_34bf98d",
+        "esm": "esm_3a7c5f2"
       },
       "name": "dss-deploy",
       "repo": {
-        "name": "dss-deploy-45985a9",
+        "name": "dss-deploy-87ea557",
         "ref": "v1.2",
-        "rev": "45985a91024f3bc82cbe15b17dd70990d7f56020",
-        "url": "https://github.com/makerdao/dss-deploy"
+        "rev": "87ea557dfaf3c06be007f10f4aa0cd08f794c6fa",
+        "url": "https://github.com/indefibank/dss-deploy"
       }
     },
-    "dss-deploy_b2c1c5a": {
+    "dss-deploy_99b5918": {
       "deps": {
         "ds-auth": "ds-auth_a51e7ca",
         "ds-pause": "ds-pause_5e798dd",
         "ds-test": "ds-test_0a5da56",
-        "dss": "dss_fa4f663",
-        "esm": "esm_225ddf2"
+        "dss": "dss_f539ee3",
+        "esm": "esm_9b55724"
       },
       "name": "dss-deploy",
       "repo": {
-        "name": "dss-deploy-b2c1c5a",
+        "name": "dss-deploy-99b5918",
         "ref": "HEAD",
-        "rev": "b2c1c5ac107b99fd61a7f6d2f63164331bd1fbf9",
-        "url": "https://github.com/makerdao/dss-deploy"
+        "rev": "99b591811af11a8de378cfecb07a4c2cb3822289",
+        "url": "https://github.com/indefibank/dss-deploy"
       }
     },
-    "dss-flash_4d4b984": {
+    "dss-flash_f56f953": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "dss": "dss_fa4f663"
+        "dss": "dss_f539ee3"
       },
       "name": "dss-flash",
       "repo": {
-        "name": "dss-flash-4d4b984",
+        "name": "dss-flash-f56f953",
         "ref": "HEAD",
-        "rev": "4d4b984eb9bb6d87c27ce542fe453e32e9a352ca",
-        "url": "https://github.com/makerdao/dss-flash"
+        "rev": "f56f9534a6c4c618696b7ca955b9865aeb9bfdff",
+        "url": "https://github.com/indefibank/dss-flash"
       }
     },
-    "dss-gem-joins_123d6b7": {
+    "dss-gem-joins_c200f22": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "dss-deploy": "dss-deploy_45985a9"
+        "dss-deploy": "dss-deploy_87ea557"
       },
       "name": "dss-gem-joins",
       "repo": {
-        "name": "dss-gem-joins-123d6b7",
+        "name": "dss-gem-joins-c200f22",
         "ref": "v1.2",
-        "rev": "123d6b7d7210a4dc47cecc405e1deeaa0f28e0c0",
-        "url": "https://github.com/makerdao/dss-gem-joins"
+        "rev": "c200f224f0efddb459b1438ff51ef8f82ce4c8af",
+        "url": "https://github.com/indefibank/dss-gem-joins"
       }
     },
-    "dss-proxy-actions_5cf4634": {
+    "dss-proxy-actions_89634b0": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "ds-weth": "ds-weth_b23b478",
-        "dss-cdp-manager": "dss-cdp-manager_306132d",
-        "dss-gem-joins": "dss-gem-joins_123d6b7",
-        "proxy-registry": "proxy-registry_981715a"
+        "ds-wcoin": "ds-wcoin_bc616e2",
+        "dss-cdp-manager": "dss-cdp-manager_4de6722",
+        "dss-gem-joins": "dss-gem-joins_c200f22",
+        "proxy-registry": "proxy-registry_2e2d754"
       },
       "name": "dss-proxy-actions",
       "repo": {
-        "name": "dss-proxy-actions-5cf4634",
+        "name": "dss-proxy-actions-89634b0",
         "ref": "HEAD",
-        "rev": "5cf46344070274ca59882d645bebf15589bdc87d",
-        "url": "https://github.com/makerdao/dss-proxy-actions"
+        "rev": "89634b0ad870db8af9d4ab7a8246b31e4d2a3311",
+        "url": "https://github.com/indefibank/dss-proxy-actions"
       }
     },
-    "dss-vest_4e04cec": {
+    "dss-vest_8a34884": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
       "name": "dss-vest",
       "repo": {
-        "name": "dss-vest-4e04cec",
+        "name": "dss-vest-8a34884",
         "ref": "HEAD",
-        "rev": "4e04cec2607a6e59960ce8bd729666cfddc2f523",
-        "url": "https://github.com/makerdao/dss-vest"
+        "rev": "8a34884cf35dfcbe7b480e2765852ddf91a713d3",
+        "url": "https://github.com/indefibank/dss-vest"
       }
     },
     "dss-vest_50b7140": {
@@ -344,32 +344,32 @@
         "url": "https://github.com/makerdao/dss-vest"
       }
     },
-    "dss_38f618c": {
+    "dss_34bf98d": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "ds-token": "ds-token_a5e709b",
+        "ds-token": "ds-token_0df53eb",
         "ds-value": "ds-value_4049ecd"
       },
       "name": "dss",
       "repo": {
-        "name": "dss-38f618c",
+        "name": "dss-34bf98d",
         "ref": "v1.2",
-        "rev": "38f618c54ff27d278eacc58d543e01bd08a88680",
-        "url": "https://github.com/makerdao/dss"
+        "rev": "34bf98d476952a13f425627917acc13612843327",
+        "url": "https://github.com/indefibank/dss"
       }
     },
-    "dss_fa4f663": {
+    "dss_f539ee3": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "ds-token": "ds-token_a5e709b",
+        "ds-token": "ds-token_0df53eb",
         "ds-value": "ds-value_4049ecd"
       },
       "name": "dss",
       "repo": {
-        "name": "dss-fa4f663",
+        "name": "dss-f539ee3",
         "ref": "HEAD",
-        "rev": "fa4f6630afb0624d04a003e920b0d71a00331d98",
-        "url": "https://github.com/makerdao/dss"
+        "rev": "f539ee37479b58f907effc19329ee40d86c507da",
+        "url": "https://github.com/indefibank/dss"
       }
     },
     "erc20_f322aac": {
@@ -382,108 +382,108 @@
         "url": "https://github.com/dapphub/erc20"
       }
     },
-    "esm_225ddf2": {
+    "esm_9b55724": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "ds-token": "ds-token_a5e709b"
+        "ds-token": "ds-token_0df53eb"
       },
       "name": "esm",
       "repo": {
-        "name": "esm-225ddf2",
+        "name": "esm-9b55724",
         "ref": "HEAD",
-        "rev": "225ddf29b1515d10ea6d4f9cde5814a73085ce09",
-        "url": "https://github.com/makerdao/esm"
+        "rev": "9b557248bfeb2d6c8a4d13f415e1dfcf195f12ac",
+        "url": "https://github.com/indefibank/esm"
       }
     },
-    "esm_8fabd86": {
+    "esm_3a7c5f2": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "ds-token": "ds-token_a5e709b"
+        "ds-token": "ds-token_0df53eb"
       },
       "name": "esm",
       "repo": {
-        "name": "esm-8fabd86",
+        "name": "esm-3a7c5f2",
         "ref": "v1.2",
-        "rev": "8fabd86487bc712faa306c01b85fceeafb0d15d0",
-        "url": "https://github.com/makerdao/esm"
+        "rev": "3a7c5f22b8f5bd55604a3b31ba94c65e33bd1531",
+        "url": "https://github.com/indefibank/esm"
       }
     },
-    "flipper-mom_3a57ea1": {
+    "flipper-mom_5236cec": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
       "name": "flipper-mom",
       "repo": {
-        "name": "flipper-mom-3a57ea1",
+        "name": "flipper-mom-5236cec",
         "ref": "HEAD",
-        "rev": "3a57ea142b859a0559b9b8c30ce7db53d6620e86",
-        "url": "https://github.com/makerdao/flipper-mom"
+        "rev": "5236cec849ade7321bf41ed097b1ccb62b58dc4e",
+        "url": "https://github.com/indefibank/flipper-mom"
       }
     },
-    "ilk-registry_4667403": {
+    "ilk-registry_44e748f": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
         "ds-value": "ds-value_4049ecd",
-        "dss": "dss_fa4f663"
+        "dss": "dss_f539ee3"
       },
       "name": "ilk-registry",
       "repo": {
-        "name": "ilk-registry-4667403",
+        "name": "ilk-registry-44e748f",
         "ref": "HEAD",
-        "rev": "4667403b0924b8710fee938e45f59b64c10f8c55",
-        "url": "https://github.com/makerdao/ilk-registry"
+        "rev": "44e748f83076e76f70f2ce2b207e27ce5f12678a",
+        "url": "https://github.com/indefibank/ilk-registry"
       }
     },
-    "median_0316acd": {
+    "median_944398b": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
       "name": "median",
       "repo": {
-        "name": "median-0316acd",
+        "name": "median-944398b",
         "ref": "HEAD",
-        "rev": "0316acd5a97fbd6c3d23b159b3d329f99ead3405",
-        "url": "https://github.com/makerdao/median"
+        "rev": "944398b10481958520c1827476606319a59456dd",
+        "url": "https://github.com/indefibank/median"
       }
     },
-    "mkr-authority_fc19f8a": {
+    "gov-authority_9b4f7a4": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
-      "name": "mkr-authority",
+      "name": "gov-authority",
       "repo": {
-        "name": "mkr-authority-fc19f8a",
+        "name": "gov-authority-9b4f7a4",
         "ref": "HEAD",
-        "rev": "fc19f8a02cfd080fbdeedd7ddf01c5e61d519e04",
-        "url": "https://github.com/makerdao/mkr-authority"
+        "rev": "9b4f7a436a725f336e3ce7d3d26c45626c5e3a74",
+        "url": "https://github.com/indefibank/gov-authority"
       }
     },
-    "multicall_1e1b443": {
+    "multicall_6c7bd63": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
       "name": "multicall",
       "repo": {
-        "name": "multicall-1e1b443",
+        "name": "multicall-6c7bd63",
         "ref": "HEAD",
-        "rev": "1e1b44362640820bef92d0ccf5eeee25d9b41474",
-        "url": "https://github.com/makerdao/multicall"
+        "rev": "6c7bd634cab15ae71424d9e6f1969940658fd69c",
+        "url": "https://github.com/indefibank/multicall"
       }
     },
-    "osm-mom_820324a": {
+    "osm-mom_ad4b92f": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "osm": "osm_e36c874"
+        "osm": "osm_468ce12"
       },
       "name": "osm-mom",
       "repo": {
-        "name": "osm-mom-820324a",
+        "name": "osm-mom-ad4b92f",
         "ref": "HEAD",
-        "rev": "820324a2ce4c2da17d7ff8ab67d12f9a5debdb4a",
-        "url": "https://github.com/makerdao/osm-mom"
+        "rev": "ad4b92f01b6b66c4ea95417b8bd63a9b2422f513",
+        "url": "https://github.com/indefibank/osm-mom"
       }
     },
-    "osm_e36c874": {
+    "osm_468ce12": {
       "deps": {
         "ds-stop": "ds-stop_27cad71",
         "ds-test": "ds-test_0a5da56",
@@ -491,122 +491,122 @@
       },
       "name": "osm",
       "repo": {
-        "name": "osm-e36c874",
+        "name": "osm-468ce12",
         "ref": "HEAD",
-        "rev": "e36c874b4e14fba860e48c0cf99cd600c0c59efa",
-        "url": "https://github.com/makerdao/osm"
+        "rev": "468ce126ebce79495852190e196dd827d1759316",
+        "url": "https://github.com/indefibank/osm"
       }
     },
-    "proxy-registry_981715a": {
+    "proxy-registry_2e2d754": {
       "deps": {
         "ds-proxy": "ds-proxy_e17a252",
         "ds-test": "ds-test_0a5da56"
       },
       "name": "proxy-registry",
       "repo": {
-        "name": "proxy-registry-981715a",
+        "name": "proxy-registry-2e2d754",
         "ref": "HEAD",
-        "rev": "981715a971f53d474ece6e4e06fd8c7992d2d5b5",
-        "url": "https://github.com/makerdao/proxy-registry"
+        "rev": "2e2d7544ef9a1dc511690e950756d7e29710c925",
+        "url": "https://github.com/indefibank/proxy-registry"
       }
     },
-    "symbolic-voting_5f9c56f": {
+    "symbolic-voting_9afcee5": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
       "name": "symbolic-voting",
       "repo": {
-        "name": "symbolic-voting-5f9c56f",
+        "name": "symbolic-voting-9afcee5",
         "ref": "HEAD",
-        "rev": "5f9c56f0a2109b36cae14e66d78eadd7125fd1e3",
-        "url": "https://github.com/makerdao/symbolic-voting"
+        "rev": "9afcee50a03fcca525f89ea02b019e2478fd5e30",
+        "url": "https://github.com/indefibank/symbolic-voting"
       }
     },
-    "testchain-medians_e842e4f": {
+    "testchain-medians_1094227": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "median": "median_0316acd"
+        "median": "median_944398b"
       },
       "name": "testchain-medians",
       "repo": {
-        "name": "testchain-medians-e842e4f",
+        "name": "testchain-medians-1094227",
         "ref": "HEAD",
-        "rev": "e842e4f474a30b0b5b1da581aeaca2aae1ae173e",
-        "url": "https://github.com/makerdao/testchain-medians"
+        "rev": "1094227e6ddca00810bc7745ce1da066ac437c21",
+        "url": "https://github.com/indefibank/testchain-medians"
       }
     },
-    "token-faucet_2d9189c": {
+    "token-faucet_ea5a83b": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
-        "ds-token": "ds-token_a5e709b"
+        "ds-token": "ds-token_0df53eb"
       },
       "name": "token-faucet",
       "repo": {
-        "name": "token-faucet-2d9189c",
+        "name": "token-faucet-ea5a83b",
         "ref": "HEAD",
-        "rev": "2d9189c798b3373ad8e317315ce054c3adc21358",
-        "url": "https://github.com/makerdao/token-faucet"
+        "rev": "ea5a83bfa2cd81922328ba9c24c3406372e9d2b8",
+        "url": "https://github.com/indefibank/token-faucet"
       }
     },
-    "vote-delegate_c2345b7": {
+    "vote-delegate_3ec2e73": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
       "name": "vote-delegate",
       "repo": {
-        "name": "vote-delegate-c2345b7",
+        "name": "vote-delegate-3ec2e73",
         "ref": "HEAD",
-        "rev": "c2345b78376d5b0bb24749a97f82fe9171b53394",
-        "url": "https://github.com/makerdao/vote-delegate"
+        "rev": "3ec2e73034950c7dfbb6cd110d79e56c048c00b2",
+        "url": "https://github.com/indefibank/vote-delegate"
       }
     },
-    "vote-proxy_67067a1": {
+    "vote-proxy_2934e1d": {
       "deps": {
-        "ds-chief": "ds-chief_224b476",
+        "ds-chief": "ds-chief_9e1986e",
         "ds-test": "ds-test_0a5da56"
       },
       "name": "vote-proxy",
       "repo": {
-        "name": "vote-proxy-67067a1",
+        "name": "vote-proxy-2934e1d",
         "ref": "HEAD",
-        "rev": "67067a1f3da63233a6e3b2c2f0148f95d046dd7e",
-        "url": "https://github.com/makerdao/vote-proxy"
+        "rev": "2934e1de73dc54352c7958292ea31c6b5add0e99",
+        "url": "https://github.com/indefibank/vote-proxy"
       }
     }
   },
   "this": {
     "deps": {
-      "clipper-mom": "clipper-mom_1473b44",
-      "ds-chief": "ds-chief_224b476",
+      "clipper-mom": "clipper-mom_316d8fe",
+      "ds-chief": "ds-chief_9e1986e",
       "ds-proxy": "ds-proxy_e17a252",
       "ds-roles": "ds-roles_53d5694",
-      "ds-token": "ds-token_a5e709b",
+      "ds-token": "ds-token_0df53eb",
       "ds-value": "ds-value_4049ecd",
-      "ds-weth": "ds-weth_b23b478",
-      "dsr-manager": "dsr-manager_0a48c2d",
-      "dss-auto-line": "dss-auto-line_bff7e6c",
-      "dss-cdp-manager": "dss-cdp-manager_306132d",
-      "dss-chain-log": "dss-chain-log_90cf9c0",
-      "dss-deploy": "dss-deploy_b2c1c5a",
-      "dss-deploy-1_2": "dss-deploy_45985a9",
-      "dss-deploy-pause-proxy-actions": "dss-deploy-pause-proxy-actions_9344383",
-      "dss-flash": "dss-flash_4d4b984",
-      "dss-gem-joins": "dss-gem-joins_123d6b7",
-      "dss-proxy-actions": "dss-proxy-actions_5cf4634",
-      "dss-vest": "dss-vest_4e04cec",
-      "dss-vest-1_0_1": "dss-vest_50b7140",
-      "flipper-mom": "flipper-mom_3a57ea1",
-      "ilk-registry": "ilk-registry_4667403",
-      "mkr-authority": "mkr-authority_fc19f8a",
-      "multicall": "multicall_1e1b443",
-      "osm": "osm_e36c874",
-      "osm-mom": "osm-mom_820324a",
-      "proxy-registry": "proxy-registry_981715a",
-      "symbolic-voting": "symbolic-voting_5f9c56f",
-      "testchain-medians": "testchain-medians_e842e4f",
-      "token-faucet": "token-faucet_2d9189c",
-      "vote-delegate": "vote-delegate_c2345b7",
-      "vote-proxy": "vote-proxy_67067a1"
+      "ds-wcoin": "ds-wcoin_bc616e2",
+      "dsr-manager": "dsr-manager_05d0c8c",
+      "dss-auto-line": "dss-auto-line_48c2272",
+      "dss-cdp-manager": "dss-cdp-manager_4de6722",
+      "dss-chain-log": "dss-chain-log_0da974a",
+      "dss-deploy": "dss-deploy_99b5918",
+      "dss-deploy-1_2": "dss-deploy_87ea557",
+      "dss-deploy-pause-proxy-actions": "dss-deploy-pause-proxy-actions_0c816c9",
+      "dss-flash": "dss-flash_f56f953",
+      "dss-gem-joins": "dss-gem-joins_c200f22",
+      "dss-proxy-actions": "dss-proxy-actions_89634b0",
+      "dss-vest": "dss-vest_8a34884",
+      "dss-vest-1_0_1": "dss-vest_8a34884",
+      "flipper-mom": "flipper-mom_5236cec",
+      "ilk-registry": "ilk-registry_44e748f",
+      "gov-authority": "gov-authority_9b4f7a4",
+      "multicall": "multicall_6c7bd63",
+      "osm": "osm_468ce12",
+      "osm-mom": "osm-mom_ad4b92f",
+      "proxy-registry": "proxy-registry_2e2d754",
+      "symbolic-voting": "symbolic-voting_9afcee5",
+      "testchain-medians": "testchain-medians_1094227",
+      "token-faucet": "token-faucet_ea5a83b",
+      "vote-delegate": "vote-delegate_3ec2e73",
+      "vote-proxy": "vote-proxy_2934e1d"
     },
     "name": "dss-deploy-scripts"
   },
