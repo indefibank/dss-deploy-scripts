@@ -458,16 +458,16 @@
         "url": "https://github.com/indefibank/gov-authority"
       }
     },
-    "multicall_6c7bd63": {
+    "multicall_1e1b443": {
       "deps": {
         "ds-test": "ds-test_0a5da56"
       },
       "name": "multicall",
       "repo": {
-        "name": "multicall-6c7bd63",
+        "name": "multicall-1e1b443",
         "ref": "HEAD",
-        "rev": "6c7bd634cab15ae71424d9e6f1969940658fd69c",
-        "url": "https://github.com/indefibank/multicall"
+        "rev": "1e1b44362640820bef92d0ccf5eeee25d9b41474",
+        "url": "https://github.com/makerdao/multicall"
       }
     },
     "osm-mom_ad4b92f": {
@@ -598,7 +598,7 @@
       "flipper-mom": "flipper-mom_5236cec",
       "ilk-registry": "ilk-registry_44e748f",
       "gov-authority": "gov-authority_9b4f7a4",
-      "multicall": "multicall_6c7bd63",
+      "multicall": "multicall_1e1b443",
       "osm": "osm_468ce12",
       "osm-mom": "osm-mom_ad4b92f",
       "proxy-registry": "proxy-registry_2e2d754",
