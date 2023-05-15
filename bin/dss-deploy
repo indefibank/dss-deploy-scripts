@@ -32,8 +32,8 @@ if [[ "$RPC_CHAIN" == "unknown" && "$1" == "metric" ]]; then
     RPC_CHAIN="metric"
 elif [[ "$RPC_CHAIN" == "unknown" && "$1" == "metertestnet" ]]; then
     RPC_CHAIN="metertestnet"
-elif [[ "$RPC_CHAIN" == "bsctest" && "$1" == "bsctestnet" ]]; then
-    RPC_CHAIN="bsctestnet"
+elif [[ "$RPC_CHAIN" == "polygon-mumbai" ]]; then
+    RPC_CHAIN="mumbai"
 elif [[ "$RPC_CHAIN" == "unknown" ]]; then
     RPC_CHAIN="testchain"
 elif [[ "$RPC_CHAIN" == "ethlive" ]]; then
