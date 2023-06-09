@@ -522,16 +522,16 @@
         "url": "https://github.com/indefibank/symbolic-voting"
       }
     },
-    "testchain-medians_1094227": {
+    "testchain-medians_cb5b93c": {
       "deps": {
         "ds-test": "ds-test_0a5da56",
         "median": "median_944398b"
       },
       "name": "testchain-medians",
       "repo": {
-        "name": "testchain-medians-1094227",
+        "name": "testchain-medians-cb5b93c",
         "ref": "HEAD",
-        "rev": "1094227e6ddca00810bc7745ce1da066ac437c21",
+        "rev": "cb5b93c1ce6c4fcde17b83afc7728dc2d7c2d5b5",
         "url": "https://github.com/indefibank/testchain-medians"
       }
     },
@@ -603,7 +603,7 @@
       "osm-mom": "osm-mom_ad4b92f",
       "proxy-registry": "proxy-registry_2e2d754",
       "symbolic-voting": "symbolic-voting_9afcee5",
-      "testchain-medians": "testchain-medians_1094227",
+      "testchain-medians": "testchain-medians_cb5b93c",
       "token-faucet": "token-faucet_ea5a83b",
       "vote-delegate": "vote-delegate_3ec2e73",
       "vote-proxy": "vote-proxy_2934e1d"
