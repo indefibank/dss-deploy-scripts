@@ -25,19 +25,16 @@
   "flash_max": "500000000",
   "tokens": {
     "MATIC": {
-      "gemDeploy": {
-        "src": "ds-wcoin/WCOIN9_",
-        "params": [],
-        "faucetSupply": "0",
-        "faucetAmount": "0"
+      "import": {
+        "gem": "0x9c3c9283d3e44854697cd22d3faa240cfb032889",
       },
       "joinDeploy": {
         "src": "GemJoin",
         "extraParams": []
       },
       "pipDeploy": {
-        "osmDelay": "0",
-        "type": "value",
+        "osmDelay": "60",
+        "type": "median",
         "price": "150",
         "signers": [
           "0x0221ea5f9037fDE38335E02D7477Fee8D1Aed8b8"
@@ -51,31 +48,35 @@
           "autoLineGap": "0",
           "autoLineTtl": "0",
           "dust": "100",
-          "duty": "5",
-          "flipDeploy": {
+          "duty": "0.01",
+          "clipDeploy": {
             "chop": "5",
-            "dunk": "500",
-            "beg": "1",
-            "ttl": "3600",
-            "tau": "3600"
+            "hole": "5000",
+            "chip": "0.1",
+	          "tip": "1",
+	          "buf": "130",
+            "tail": "8400",
+            "cusp": "40",
+	          "calc": {
+	            "type": "StairstepExponentialDecrease",
+	            "step": "90",
+	            "cut":  "99"
+	          }
           }
         }
       }
     },
     "WBTC": {
-      "gemDeploy": {
-        "src": "dss-gem-joins/WBTC",
-        "params": ["100000000000000"],
-        "faucetSupply": "99000000000000",
-        "faucetAmount": "100000000"
+      "import": {
+        "gem": "0x22B531F7CE4Fd285D7A555F5302E06DC151EBe2D",
       },
       "joinDeploy": {
         "src": "GemJoin5",
         "extraParams": []
       },
       "pipDeploy": {
-        "osmDelay": "0",
-        "type": "value",
+        "osmDelay": "60",
+        "type": "median",
         "price": "19000",
         "signers": [
           "0x0221ea5f9037fDE38335E02D7477Fee8D1Aed8b8"
@@ -89,31 +90,35 @@
           "autoLineGap": "0",
           "autoLineTtl": "0",
           "dust": "100",
-          "duty": "20",
-          "flipDeploy": {
-            "chop": "8",
-            "dunk": "500",
-            "beg": "1",
-            "ttl": "3600",
-            "tau": "3600"
+          "duty": "0.01",
+          "clipDeploy": {
+            "chop": "5",
+            "hole": "5000",
+            "chip": "0.1",
+	          "tip": "1",
+	          "buf": "130",
+            "tail": "8400",
+            "cusp": "40",
+	          "calc": {
+	            "type": "StairstepExponentialDecrease",
+	            "step": "90",
+	            "cut":  "99"
+	          }
           }
         }
       }
     },
     "USDT": {
-      "gemDeploy": {
-        "src": "dss-gem-joins/USDT",
-        "params": ["1000000000000000000000000"],
-        "faucetSupply": "990000000000000000000000",
-        "faucetAmount": "50000000000000000000"
+      "import": {
+        "gem": "0xEc15d43eD1749F07a65DF0B411AAf58149e72d27",
       },
       "joinDeploy": {
         "src": "GemJoin7",
         "extraParams": []
       },
       "pipDeploy": {
-        "osmDelay": "0",
-        "type": "value",
+        "osmDelay": "60",
+        "type": "median",
         "price": "1",
         "signers": [
           "0x0221ea5f9037fDE38335E02D7477Fee8D1Aed8b8"
@@ -127,13 +132,20 @@
           "autoLineGap": "0",
           "autoLineTtl": "0",
           "dust": "100",
-          "duty": "6",
-          "flipDeploy": {
-            "chop": "13",
-            "dunk": "500",
-            "beg": "1",
-            "ttl": "3600",
-            "tau": "3600"
+          "duty": "0.01",
+          "clipDeploy": {
+            "chop": "5",
+            "hole": "5000",
+            "chip": "0.1",
+	          "tip": "1",
+	          "buf": "130",
+            "tail": "8400",
+            "cusp": "40",
+	          "calc": {
+	            "type": "StairstepExponentialDecrease",
+	            "step": "90",
+	            "cut":  "99"
+	          }
           }
         }
       }
