@@ -26,7 +26,7 @@
   "tokens": {
     "MATIC": {
       "import": {
-        "gem": "0x9c3c9283d3e44854697cd22d3faa240cfb032889",
+        "gem": "0x9c3c9283d3e44854697cd22d3faa240cfb032889"
       },
       "joinDeploy": {
         "src": "GemJoin",
@@ -68,7 +68,7 @@
     },
     "WBTC": {
       "import": {
-        "gem": "0x22B531F7CE4Fd285D7A555F5302E06DC151EBe2D",
+        "gem": "0x22B531F7CE4Fd285D7A555F5302E06DC151EBe2D"
       },
       "joinDeploy": {
         "src": "GemJoin5",
@@ -110,7 +110,7 @@
     },
     "USDT": {
       "import": {
-        "gem": "0xEc15d43eD1749F07a65DF0B411AAf58149e72d27",
+        "gem": "0xEc15d43eD1749F07a65DF0B411AAf58149e72d27"
       },
       "joinDeploy": {
         "src": "GemJoin7",
